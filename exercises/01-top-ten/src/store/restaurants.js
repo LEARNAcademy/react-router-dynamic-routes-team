@@ -3,7 +3,7 @@
      id: 1,
      name: 'Bob\'s Burger',
      location: 'Near the wharf',
-     popular: ['New Bacon-ings', 'Coffee', 'Gene']
+     popular: ['New Bacon-ings', 'Coffee', 'Tina']
    },
    {
      id: 2,
