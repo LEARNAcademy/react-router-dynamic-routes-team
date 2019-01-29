@@ -3,13 +3,13 @@
      id: 1,
      name: 'Bob\'s Burger',
      location: 'Near the wharf',
-     popular: 'New Bacon-ings'
+     popular: ['New Bacon-ings', 'Coffee', 'Tina']
    },
    {
      id: 2,
      name: 'Shenanigan\'s',
      location: 'Next to Teledyne',
-     popular: 'Onion Bloom'
+     popular: ['Onion Bloom', 'Wings', 'Beer']
    }
  ]
 

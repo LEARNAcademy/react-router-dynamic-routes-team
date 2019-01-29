@@ -1,6 +1,13 @@
 import React, { Component } from 'react';
+import {
+  BrowserRouter as Router,
+  Link,
+  Route,
+  Switch
+} from 'react-router-dom'
 
 import restaurants from '../store/restaurants'
+import Popular from '../pages/Popular'
 
 export default class Restaurant extends Component {
   constructor(props){
@@ -31,7 +38,7 @@ export default class Restaurant extends Component {
           <div>
             <h3>{restaurant.name}</h3>
             <p>Location: {restaurant.location}</p>
-            <p>Their most popular items is their {restaurant.popular}</p>
+            <Link to={`/restaurant/${restaurant.id}/popular`}>Menu Items</Link>
           </div>
         }
       </div>

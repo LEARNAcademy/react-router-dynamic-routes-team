@@ -9,6 +9,7 @@ import {
 import './App.css';
 import Home from './pages/Home'
 import Restaurant from './pages/Restaurant'
+import Popular from './pages/Popular'
 
 
 
@@ -27,7 +28,8 @@ class App extends Component {
 
           <Switch>
             <Route path='/' exact component={Home}/>
-            <Route path='/restaurant/:id' component={Restaurant}/>
+            <Route path='/restaurant/:id' exact component={Restaurant}/>
+            <Route path='/restaurant/:id/popular' component={Popular}/>
           </Switch>
         </div>
       </Router>
