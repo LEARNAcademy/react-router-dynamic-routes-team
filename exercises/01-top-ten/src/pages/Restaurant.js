@@ -25,7 +25,7 @@ export default class Restaurant extends Component {
 
     return (
       <div>
-        <h1>Restaurant</h1>
+        <h1>Top 10 Restaurants</h1>
         <hr/>
         {restaurant &&
           <div>
