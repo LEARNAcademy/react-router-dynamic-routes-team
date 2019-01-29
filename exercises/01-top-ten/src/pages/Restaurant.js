@@ -8,7 +8,6 @@ import {
 
 import restaurants from '../store/restaurants'
 import Popular from '../pages/Popular'
-
 export default class Restaurant extends Component {
   constructor(props){
     super(props)
